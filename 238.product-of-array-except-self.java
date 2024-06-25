@@ -8,6 +8,7 @@ package Leetcode_subs;
 import java.util.Arrays;
 
 // @lc code=start
+
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
@@ -29,5 +30,6 @@ class Solution {
         return result;
     }
 }
+
 // @lc code=end
 
