@@ -5,8 +5,12 @@ package Leetcode_subs;
  * [134] Gas Station
  */
 
+
+
 // @lc code=start
+import java.util.Arrays;
 class Solution {
+
     public int canCompleteCircuit(int[] gas, int[] cost) {
        if (Arrays.stream(gas).sum() < Arrays.stream(cost).sum()) return -1;
 
@@ -25,5 +29,6 @@ class Solution {
        return ans;
     }
 }
+
 // @lc code=end
 
